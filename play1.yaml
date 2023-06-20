@@ -1,0 +1,7 @@
+---
+ - name: just a random play
+   hosts: web
+   tasks:
+   - name: printing hi
+     debug:
+       msg: "hello .. oh sorry hi!"
